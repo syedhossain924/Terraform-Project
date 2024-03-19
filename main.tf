@@ -8,7 +8,7 @@ resource "aws_instance" "RHEL-VM-Server" {
   instance_type = "t2.medium"
   key_name      = "VS_Keypair"
   tags = {
-    Name = "RHEL-Server"
+    Name = "RHEL-VM-Server"
   }
   root_block_device {
     volume_size = 12
