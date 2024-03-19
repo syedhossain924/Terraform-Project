@@ -6,7 +6,7 @@ resource "aws_instance" "RHEL-VM-Server" {
   count         = 1
   ami           = "ami-0fe630eb857a6ec83"
   instance_type = "t2.medium"
-  key_name      = "Jenkins_Keypair"
+  key_name      = "VS_Keypair"
   tags = {
     Name = "RHEL-Server"
   }
